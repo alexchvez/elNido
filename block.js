@@ -3,7 +3,7 @@ function block(x, y){
 	this.y = y;
 
 	this.show = function(){;
-		fill(random(255), random(255), random(255));
+		fill(17, 0, 200);
 		rect(this.x, this.y, 80, 30)
 	}
 }
